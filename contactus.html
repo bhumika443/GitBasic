@@ -3,6 +3,38 @@
 
 <head>
     <title>Contact Us</title>
+    <style>
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 15px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:focus {
+            outline: none;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2
+            0px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        
+    </style>
 </head>
 
 <body>
@@ -19,5 +51,9 @@
         <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
         
         <input type="submit" value="Submit">
+    </form>
+    <p>Thank you for reaching out!</p>
+</body>
 
 </html>
+<!-- End of contactus.html -->
